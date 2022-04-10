@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	color: var(--white-color);
+}
+
+:root {
+	--white-color: rgb(255, 255, 255);
+	--black-color: rgb(0, 0, 0);
+	--dark-grey-color: rgb(128, 128, 128);
+	--darker-grey-color: rgb(105, 105, 105);
+	--pry-font: "Alata", sans-serif;
+	--sec-font: "Josefin Sans", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 140rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* SHOWCASE */
+#showcase {
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url(./images/desktop/image-hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10rem;
+}
+
+.logo a svg {
+	width: 15rem;
+	fill: var(--white-color);
+}
+
+.navlist {
+	gap: 2rem;
+}
+
+.navlist li a {
+	font-family: var(--sec-font);
+	font-size: 1.8rem;
+	position: relative;
+}
+
+.navlist li a::before {
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 0.3rem;
+	background-color: white;
+	bottom: -0.5rem;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.3s;
+}
+
+.navlist li a:hover::before {
+	transform: translateX(-50%) scale(1);
+}
+
+header {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.header-title {
+	font-family: var(--sec-font);
+	font-size: 8rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	flex-basis: 50%;
+	padding: 3rem 1.5rem 1.5rem 1.8rem;
+	border: 0.2rem solid #fff;
+}
+
+/* SECTION ABOUT */
+#about {
+	width: 100vw;
+	min-height: 70vh;
+	padding: 10rem 0 5rem 0;
+}
+
+#about .row {
+	display: flex;
+}
+
+.about-text {
+	flex-basis: 50%;
+	padding: 6rem;
+	align-self: flex-end;
+	position: relative;
+	left: -15rem;
+	background: #fff;
+}
+
+.section-title {
+	font-family: var(--sec-font);
+	font-weight: 400;
+	font-size: 4rem;
+	color: darker var(--darker-grey-color);
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: var(--black-color);
+}
+
+.section-para {
+	font-family: var(--pry-font);
+	font-size: 1.5rem;
+	color: var(--dark-grey-color);
+}
