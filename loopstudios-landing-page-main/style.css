@@ -38,6 +38,10 @@ body {
 	align-items: center;
 }
 
+button {
+	cursor: pointer;
+}
+
 /* SHOWCASE */
 #showcase {
 	width: 100vw;
@@ -102,7 +106,7 @@ header {
 }
 
 /* SECTION ABOUT */
-#about {
+section {
 	width: 100vw;
 	min-height: 70vh;
 	padding: 10rem 0 5rem 0;
@@ -113,9 +117,9 @@ header {
 }
 
 .about-text {
-	flex-basis: 50%;
 	padding: 6rem;
 	align-self: flex-end;
+	justify-content: space-between;
 	position: relative;
 	left: -15rem;
 	background: #fff;
@@ -135,4 +139,73 @@ header {
 	font-family: var(--pry-font);
 	font-size: 1.5rem;
 	color: var(--dark-grey-color);
+}
+
+/* SECTION CREATION */
+.creations-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+.creations-heading button {
+	width: 15rem;
+	height: 4rem;
+	color: var(--black-color);
+	background: none;
+	border: 0.1rem solid var(--black-color);
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	transition: all 0.2s;
+}
+
+.creations-heading button:hover {
+	background: var(--black-color);
+	color: var(--white-color);
+}
+
+.creations-gallery {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 2rem;
+	margin-top: 5rem;
+}
+
+.creations-card {
+	min-height: 60rem;
+	position: relative;
+}
+
+.creations-card img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.4s;
+}
+
+.creations-card:hover img {
+	opacity: 0.4;
+}
+
+.text {
+	position: absolute;
+	bottom: 5rem;
+	left: 4rem;
+	z-index: 2;
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-family: var(--sec-font);
+	font-weight: 300;
+}
+
+.text p {
+	transition: all 0.4s;
+}
+
+.creations-card:hover .text p {
+	color: var(--black-color);
 }
