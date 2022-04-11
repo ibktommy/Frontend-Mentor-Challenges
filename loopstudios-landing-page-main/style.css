@@ -220,6 +220,7 @@ section {
 .footer-top {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-top: 1rem;
 }
 
@@ -228,9 +229,31 @@ section {
 	gap: 3rem;
 }
 
+.social-icons a {
+	display: inline-block;
+	position: relative;
+}
+
+.social-icons a::before {
+	content: "";
+	position: absolute;
+	width: 70%;
+	height: 0.3rem;
+	background-color: white;
+	bottom: -0.5rem;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.3s;
+}
+
+.social-icons a:hover::before {
+	transform: translateX(-50%) scale(1);
+}
+
 .social-icons a svg {
 	fill: var(--white-color);
 	width: 3rem;
+	height: 3rem;
 }
 
 .footer-bottom {
