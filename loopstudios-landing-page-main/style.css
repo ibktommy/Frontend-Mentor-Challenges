@@ -225,7 +225,7 @@ section {
 
 .social-icons {
 	display: flex;
-	gap: 1rem;
+	gap: 3rem;
 }
 
 .social-icons a svg {
