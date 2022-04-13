@@ -42,6 +42,53 @@ button {
 	cursor: pointer;
 }
 
+/* MENU NAV FOR MOBILE */
+.hidden {
+	display: none;
+}
+
+#menu-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--black-color);
+	z-index: 5;
+}
+
+.menu-list {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 5rem;
+	padding-left: 5rem;
+}
+
+.menu-list li a {
+	font-family: var(--sec-font);
+	font-size: 5rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/* Hide Menu Icons */
+.menu-icon {
+	display: none;
+}
+.menu-icon svg {
+	position: relative;
+	width: 5rem;
+	fill: var(--white-color);
+	z-index: 5;
+}
+
+.menu-icon svg.open,
+.menu-icon svg.close {
+	display: none;
+}
 /* SHOWCASE */
 #showcase {
 	width: 100vw;
@@ -60,8 +107,10 @@ nav {
 }
 
 .logo a svg {
+	position: relative;
 	width: 15rem;
 	fill: var(--white-color);
+	z-index: 10;
 }
 
 .navlist {

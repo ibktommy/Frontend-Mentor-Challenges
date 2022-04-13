@@ -2,18 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
         rel="stylesheet"> -->
 
-    <title>Frontend Mentor | Loopstudios landing page</title>
+  <title>Frontend Mentor | Loopstudios landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
         .attribution {
             font-size: 11px;
             text-align: center;
@@ -26,175 +28,202 @@
 </head>
 
 <body>
-    <!-- SHOWCASE -->
-    <main id="showcase">
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="#logo">
-                        <svg>
-                            <use href="images/sprite.svg#logo"></use>
-                        </svg>
-                    </a>
-                </div>
-                <ul class="navlist center">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#careers">Careers</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#support">Support</a></li>
-                </ul>
-            </nav>
-            <header>
-                <h1 class="header-title">Immersive Experiences that deliver</h1>
-            </header>
+  <!-- MENU NAV FOR MOBILE -->
+  <div id="menu-nav" class="hidden">
+    <ul class="menu-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#careers">Careers</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#support">Support</a></li>
+    </ul>
+  </div>
+  <!-- END OF MENU NAV FOR MOBILE -->
+
+  <!-- SHOWCASE -->
+  <main id="showcase">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#logo">
+            <svg>
+              <use href="images/sprite.svg#logo"></use>
+            </svg>
+          </a>
         </div>
-    </main>
-    <!-- END OF SHOWCASE -->
-
-    <!-- SECTION ABOUT -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <img src="./images/desktop/image-interactive.jpg" alt="image-interactive" class="about-img">
-                <div class="about-text">
-                    <h2 class="section-title">
-                        The leader in interactive VR
-                    </h2>
-                    <p class="section-para">
-                        Founded in 2011, Loopstudios has been producing world-class virtual reality
-                        projects for some of the best companies around the globe. Our award-winning
-                        creations have transformed businesses through digital experiences that bind
-                        to their brand.
-                    </p>
-                </div>
-            </div>
+        <ul class="navlist center">
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+        <div class="menu-icon">
+          <a href="#icon-hamburger">
+            <svg class="open">
+              <use href="images/sprite.svg#icon-hamburger"></use>
+            </svg>
+          </a>
+          <a href="#icon-close">
+            <svg class="close">
+              <use href="images/sprite.svg#icon-close"></use>
+            </svg>
+          </a>
         </div>
-    </section>
-    <!-- END SECTION ABOUT -->
+      </nav>
+      <header>
+        <h1 class="header-title">Immersive Experiences that deliver</h1>
+      </header>
+    </div>
+  </main>
+  <!-- END OF SHOWCASE -->
 
-    <!-- SECTION CREATIONS -->
-    <section id="creations">
-        <div class="container">
-            <div class="creations-heading">
-                <h2 class="section-title">Our Creations</h2>
-                <button>See All</button>
-            </div>
-            <div class="creations-gallery">
-                <div class="creations-card">
-                    <img src="./images/desktop/image-deep-earth.jpg" alt="image-deep-earth">
-                    <div class="text">
-                        <p>Deep</p>
-                        <p>earth</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-night-arcade.jpg" alt="image-night-arcade">
-                    <div class="text">
-                        <p>night</p>
-                        <p>arcade</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-soccer-team.jpg" alt="image-soccer-team">
-                    <div class="text">
-                        <p>soccer</p>
-                        <p>team vr</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-grid.jpg" alt="image-grid">
-                    <div class="text">
-                        <p>the</p>
-                        <p>grid</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-from-above.jpg" alt="image-from-above">
-                    <div class="text">
-                        <p>from up</p>
-                        <p>above vr</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-pocket-borealis.jpg" alt="image-pocket-borealis">
-                    <div class="text">
-                        <p>pocket</p>
-                        <p>boreals</p>
-                    </div>
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-curiosity.jpg" alt="image-curiosity">
-                    <div class="text">
-                        <p>the</p>
-                        <p>curiosity</p>
-                    </div>
-
-                </div>
-                <div class="creations-card">
-                    <img src="./images/desktop/image-fisheye.jpg" alt="image-fisheye">
-                    <div class="text">
-                        <p>make it</p>
-                        <p>fisheye</p>
-                    </div>
-                </div>
-            </div>
+  <!-- SECTION ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <img src="./images/desktop/image-interactive.jpg" alt="image-interactive" class="about-img">
+        <div class="about-text">
+          <h2 class="section-title">
+            The leader in interactive VR
+          </h2>
+          <p class="section-para">
+            Founded in 2011, Loopstudios has been producing world-class virtual reality
+            projects for some of the best companies around the globe. Our award-winning
+            creations have transformed businesses through digital experiences that bind
+            to their brand.
+          </p>
         </div>
-    </section>
-    <!-- END OF SECTION CREATIONS -->
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="footer-top">
-                <div class="logo">
-                    <a href="#logo">
-                        <svg>
-                            <use href="images/sprite.svg#logo"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="social-icons">
-                    <a href="#none" class="facebook">
-                        <svg>
-                            <use href="images/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                    <a href="#none" class="twitter">
-                        <svg>
-                            <use href="images/sprite.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                    <a href="#none" class="pinterest">
-                        <svg>
-                            <use href="images/sprite.svg#icon-pinterest"></use>
-                        </svg>
-                    </a>
-                    <a href="#none" class="facebook">
-                        <svg>
-                            <use href="images/sprite.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION ABOUT -->
 
-            <div class="footer-bottom">
-                <ul class="navlist center">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#careers">Careers</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#support">Support</a></li>
-                </ul>
-                <div class="footer-copyright">&copy; 2022 Loopstudios All Rights Reserved</div>
-            </div>
+  <!-- SECTION CREATIONS -->
+  <section id="creations">
+    <div class="container">
+      <div class="creations-heading">
+        <h2 class="section-title">Our Creations</h2>
+        <button>See All</button>
+      </div>
+      <div class="creations-gallery">
+        <div class="creations-card">
+          <img src="./images/desktop/image-deep-earth.jpg" alt="image-deep-earth">
+          <div class="text">
+            <p>Deep</p>
+            <p>earth</p>
+          </div>
         </div>
-    </footer>
-    <!-- END OF FOOTER -->
+        <div class="creations-card">
+          <img src="./images/desktop/image-night-arcade.jpg" alt="image-night-arcade">
+          <div class="text">
+            <p>night</p>
+            <p>arcade</p>
+          </div>
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-soccer-team.jpg" alt="image-soccer-team">
+          <div class="text">
+            <p>soccer</p>
+            <p>team vr</p>
+          </div>
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-grid.jpg" alt="image-grid">
+          <div class="text">
+            <p>the</p>
+            <p>grid</p>
+          </div>
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-from-above.jpg" alt="image-from-above">
+          <div class="text">
+            <p>from up</p>
+            <p>above vr</p>
+          </div>
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-pocket-borealis.jpg" alt="image-pocket-borealis">
+          <div class="text">
+            <p>pocket</p>
+            <p>boreals</p>
+          </div>
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-curiosity.jpg" alt="image-curiosity">
+          <div class="text">
+            <p>the</p>
+            <p>curiosity</p>
+          </div>
 
-    <!-- <div class=" attribution">
+        </div>
+        <div class="creations-card">
+          <img src="./images/desktop/image-fisheye.jpg" alt="image-fisheye">
+          <div class="text">
+            <p>make it</p>
+            <p>fisheye</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF SECTION CREATIONS -->
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <a href="#logo">
+            <svg>
+              <use href="images/sprite.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="social-icons">
+          <a href="#none" class="facebook">
+            <svg>
+              <use href="images/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a href="#none" class="twitter">
+            <svg>
+              <use href="images/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+          <a href="#none" class="pinterest">
+            <svg>
+              <use href="images/sprite.svg#icon-pinterest"></use>
+            </svg>
+          </a>
+          <a href="#none" class="facebook">
+            <svg>
+              <use href="images/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <ul class="navlist center">
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+        <div class="footer-copyright">&copy; 2022 Loopstudios All Rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- <div class=" attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
             Coded by <a href="#">AtomDev</a>.
             </div> -->
+  <!-- Javascript File -->
+  <script src="app.js"></script>
+
 </body>
 
 </html>

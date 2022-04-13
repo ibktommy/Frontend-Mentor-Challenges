@@ -1,0 +1,72 @@
+@media screen and (max-width: 1200px) {
+	.header-title {
+		font-size: 6rem;
+	}
+
+	section {
+		padding: 5rem 0;
+		min-height: 50vh;
+	}
+
+	.about-img {
+		flex-basis: 50%;
+		object-fit: cover;
+		width: calc(10rem - 50vw);
+	}
+
+	.about-text {
+		left: 0;
+		width: 50%;
+	}
+
+	.section-title {
+		font-size: 3rem;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	#showcase {
+		min-height: 60vh;
+	}
+
+	nav {
+		margin-bottom: 5rem;
+	}
+	header {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header-title {
+		display: inline-block;
+		flex-basis: 70%;
+		text-align: center;
+	}
+
+	.creations-card {
+		min-height: 50rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.navlist {
+		display: none;
+	}
+
+	.menu-icon {
+		display: inline-block;
+	}
+
+	.menu-icon svg.open {
+		display: block;
+	}
+
+	.logo {
+		padding-left: 3rem;
+	}
+
+	.logo a svg {
+		width: 25rem;
+	}
+}
