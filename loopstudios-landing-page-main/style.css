@@ -103,12 +103,14 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 3rem;
 	margin-bottom: 10rem;
 }
 
 .logo a svg {
 	position: relative;
 	width: 15rem;
+	height: 4rem;
 	fill: var(--white-color);
 	z-index: 10;
 }
@@ -263,19 +265,38 @@ button:hover {
 #footer {
 	background-color: var(--black-color);
 	color: var(--white-color);
-	padding-bottom: 2rem;
+	padding: 2rem 0;
 }
 
-.footer-top {
+#footer .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.footer-logoLink {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	margin-top: 1rem;
+	gap: 2rem;
+}
+
+.footer-iconCopyright {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.footer-copyright {
+	font-family: var(--sec-font);
+	font-size: 1.8rem;
 }
 
 .social-icons {
 	display: flex;
 	gap: 3rem;
+	justify-content: flex-end;
 }
 
 .social-icons a {
@@ -302,15 +323,5 @@ button:hover {
 .social-icons a svg {
 	fill: var(--white-color);
 	width: 3rem;
-	height: 3rem;
-}
-
-.footer-bottom {
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer-copyright {
-	font-family: var(--sec-font);
-	font-size: 1.5rem;
+	height: 5rem;
 }
