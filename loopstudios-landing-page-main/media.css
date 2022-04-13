@@ -69,4 +69,64 @@
 	.logo a svg {
 		width: 25rem;
 	}
+
+	nav {
+		margin-bottom: 2rem;
+	}
+
+	header {
+		min-height: 70vh;
+	}
+
+	#about .row {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about-img {
+		flex-basis: 100%;
+		width: 80%;
+	}
+
+	.about-text {
+		flex-basis: 100%;
+		width: 80vw;
+		text-align: center;
+	}
+
+	.section-title {
+		text-align: center;
+		font-size: 4rem;
+	}
+
+	.section-para {
+		font-size: 2.5rem;
+		line-height: 1.6;
+	}
+
+	.creations-gallery {
+		grid-template-columns: auto;
+		grid-template-rows: repeat(1fr);
+	}
+
+	.creations-card {
+		min-height: 30rem;
+	}
+
+	.creations-heading {
+		display: block;
+	}
+
+	.creations-heading button {
+		display: none;
+	}
+
+	#creations button.hidden {
+		display: flex;
+		margin: 3rem auto;
+	}
+
+	#footer .navlist {
+		display: flex;
+	}
 }
