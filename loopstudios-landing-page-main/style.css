@@ -288,11 +288,6 @@ button:hover {
 	gap: 2rem;
 }
 
-.footer-copyright {
-	font-family: var(--sec-font);
-	font-size: 1.8rem;
-}
-
 .social-icons {
 	display: flex;
 	gap: 3rem;
@@ -324,4 +319,9 @@ button:hover {
 	fill: var(--white-color);
 	width: 3rem;
 	height: 5rem;
+}
+
+.footer-copyright {
+	font-family: var(--sec-font);
+	font-size: 1.8rem;
 }
