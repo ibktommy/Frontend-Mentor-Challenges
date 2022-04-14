@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 950px) {
 	#showcase {
-		min-height: 60vh;
+		min-height: 65vh;
 	}
 
 	header {
@@ -68,8 +68,13 @@
 	}
 
 	.logo a svg {
-		width: 25rem;
+		width: 20rem;
 	}
+
+  .menu-icon svg {
+    height: 4rem;
+    padding-right: 3rem;
+  }
 
 	#showcase {
 		min-height: 70vh;
@@ -154,12 +159,9 @@
 		padding-left: 0;
 	}
 
-	.logo a svg {
-		width: 20rem;
-	}
-
   .menu-icon svg {
     height: 4rem;
+    padding-right: 0rem;
   }
 
 	#showcase {
@@ -203,6 +205,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  #showcase {
+    min-height: 80vh;
+  }
 	.header-title {
 		font-size: 4.5rem;
 	}
