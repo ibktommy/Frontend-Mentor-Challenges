@@ -18,7 +18,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ibktommy/Frontend-Mentor-Challenges/tree/master/loopstudios-landing-page-main)
-- Live Site URL: [Add live site URL here](https://atomdev-frontendmentor-loopstudious.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/ibktommy/Frontend-Mentor-Challenges/tree/master/loopstudios-landing-page-main)
+- Live Site URL: [Live Site URL](https://atomdev-frontendmentor-loopstudious.netlify.app/)
 
 ## My process
 
@@ -62,9 +61,9 @@ In later projects, I will want to work more on the menu-bar animation.
 
 ## Author
 
-- Website - [Add your name here](https://atomdev-portfolio.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ibktommy)
-- Twitter - [@yourusername](https://www.twitter.com/ATOMQuadri)
+- Website - [atomDev](https://atomdev-portfolio.netlify.app)
+- Frontend Mentor - [@ibktommy](https://www.frontendmentor.io/profile/ibktommy)
+- Twitter - [@ATOMQuadri](https://www.twitter.com/ATOMQuadri)
 
 ## Acknowledgments
 
