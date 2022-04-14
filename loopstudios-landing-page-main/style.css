@@ -104,7 +104,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 3rem;
-	margin-bottom: 10rem;
+	margin-bottom: 15rem;
 }
 
 .logo a svg {
@@ -172,12 +172,13 @@ section {
 	padding: 6rem;
 	text-align: left;
 	left: -15rem;
+	align-self: flex-end;
 	background: #fff;
 }
 
 .section-title {
 	font-family: var(--sec-font);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 4rem;
 	line-height: 1.4;
 	color: darker var(--darker-grey-color);
